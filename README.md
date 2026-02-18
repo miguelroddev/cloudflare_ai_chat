@@ -5,7 +5,7 @@ Minimal AI-powered chat app using:
 - Workers AI (Llama 3.1)
 - Worker + Durable Object (workflow + memory)
 - Simple chat UI served from the Worker
-
+- Demo: https://proud-firefly-5d44.miguelrodriguesdev.workers.dev/
 ---
 
 ## Requirement Mapping
@@ -64,16 +64,6 @@ npx wrangler dev --config wrangler.dev.jsonc
 Open:
 http://localhost:8787
 
-
----
-
-## Deploy
-
-cd proud-firefly-5d44
-npx wrangler deploy
-
-Wrangler outputs a *.workers.dev URL.
-https://proud-firefly-5d44.miguelrodriguesdev.workers.dev/
 
 ---
 
